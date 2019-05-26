@@ -1,5 +1,9 @@
 # Ultra Vires
 
+_adjective_
+
+acting or done beyond one's legal power or authority.
+
 ### Sample Run
 
 ~~~
