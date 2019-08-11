@@ -1,7 +1,5 @@
 [![Build Status](http://ec2-3-15-154-34.us-east-2.compute.amazonaws.com:8080/buildStatus/icon?job=jmorgancusick%2Fultra-vires%2Fmaster)](http://ec2-3-15-154-34.us-east-2.compute.amazonaws.com:8080/job/jmorgancusick/job/ultra-vires/job/master/)
 
-test
-
 # Ultra Vires
 
 _adjective_
