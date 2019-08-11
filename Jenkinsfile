@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                sh 'pipenv run python3 -m pytest .'
             }
         }
     }
