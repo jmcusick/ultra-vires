@@ -2,14 +2,14 @@
 
 import pytest
 
-from .binder import setup
+from binder import setup
 
 def test_base_26():
     # Given
     letters = 'abc'
 
     # When
-    x = base_26_characters_to_base_10(letters)
+    x = setup.base_26_characters_to_base_10(letters)
 
     # Then
-    assert x == 10
+    assert x == 730
