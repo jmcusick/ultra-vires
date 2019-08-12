@@ -1,4 +1,4 @@
-[![Build Status](http://ec2-18-191-242-166.us-east-2.compute.amazonaws.com:8080/buildStatus/icon?job=jmorgancusick%2Fultra-vires%2Fmaster)](http://ec2-18-191-242-166.us-east-2.compute.amazonaws.com:8080/job/jmorgancusick/job/ultra-vires/job/master/)
+[![Build Status](http://jenkins.jmorgancusick.com/buildStatus/icon?job=jmorgancusick%2Fultra-vires%2Fmaster)](http://jenkins.jmorgancusick.com/job/jmorgancusick/job/ultra-vires/job/master/)
 
 # Ultra Vires
 
