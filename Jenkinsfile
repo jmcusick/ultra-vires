@@ -10,7 +10,8 @@ pipeline {
                 sh """pwd
                 hostname
                 ls
-                whoami"""
+                whoami
+                env"""
                 sh 'pipenv run python3 -m pytest .'
             }
         }
