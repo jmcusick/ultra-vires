@@ -12,6 +12,7 @@ pipeline {
                 ls
                 whoami
                 env"""
+                sh 'pipenv install --dev'
                 sh 'pipenv run python3 -m pytest .'
             }
         }
