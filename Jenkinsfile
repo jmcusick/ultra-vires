@@ -4,9 +4,9 @@ pipeline {
         stage('build') {
             steps {
                 sh """pwd
-                whoami
                 hostname
-                ls"""
+                ls
+                whoami"""
                 sh 'pipenv run python3 -m pytest .'
             }
         }
