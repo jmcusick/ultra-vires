@@ -1,0 +1,14 @@
+CHANGES
+=======
+
+* install dependencies via pipenv
+* add requirements.txt
+* shift jenksinfile docker info to dockerfile and add test directory
+* Update README.md
+* Update README.md
+* Update Jenkinsfile
+* Create Jenkinsfile
+* Create license.txt
+* Update README.md
+* README sample and move xlsx
+* initial commit

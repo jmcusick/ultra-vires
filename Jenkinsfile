@@ -1,9 +1,25 @@
 pipeline {
-    agent { docker { image 'python:3.5.1' } }
+    agent { 
+        dockerfile {
+            args '-u root:sudo'
+        }
+    }
     stages {
+        stage('debug') {
+            steps {
+                sh """
+                pwd
+                hostname
+                ls
+                whoami
+                env
+                """
+            }
+        }
         stage('build') {
             steps {
-                sh 'python --version'
+                sh 'pipenv install --dev'
+                sh 'pipenv run python3 -m pytest .'
             }
         }
     }
