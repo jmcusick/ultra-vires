@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN pip install --user pipenv
+RUN pip install pipenv
 
 ADD . /usr/src/app
 WORKDIR /usr/src/app
