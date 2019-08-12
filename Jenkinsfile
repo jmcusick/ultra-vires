@@ -5,13 +5,19 @@ pipeline {
         }
     }
     stages {
-        stage('build') {
+        stage('debug') {
             steps {
-                sh """pwd
+                sh """
+                pwd
                 hostname
                 ls
                 whoami
-                env"""
+                env
+                """
+            }
+        }
+        stage('build') {
+            steps {
                 sh 'pipenv install --dev'
                 sh 'pipenv run python3 -m pytest .'
             }
