@@ -1,7 +1,8 @@
 pipeline {
     agent { 
-        dockerfile true 
-        args '-u root:sudo'
+        dockerfile {
+            args '-u root:sudo'
+        }
     }
     stages {
         stage('build') {
