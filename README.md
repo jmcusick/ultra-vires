@@ -1,4 +1,4 @@
-[![Build Status](http://jenkins.jmorgancusick.com/buildStatus/icon?job=jmorgancusick%2Fprice-yak-amazon-price-drop%2Fmaster)](http://jenkins.jmorgancusick.com/job/jmorgancusick/job/price-yak-amazon-price-drop/job/master/)
+[![Build Status](http://jenkins.jmorgancusick.com/buildStatus/icon?job=jmorgancusick%2Fultra-vires%2Fmaster)](http://jenkins.jmorgancusick.com/job/jmorgancusick/job/ultra-vires/job/master/)
 
 # Ultra Vires
 
