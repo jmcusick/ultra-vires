@@ -1,4 +1,4 @@
-[![Build Status](http://jenkins.jmorgancusick.com/buildStatus/icon?job=jmorgancusick%2Fultra-vires%2Fmaster)](http://jenkins.jmorgancusick.com/job/jmorgancusick/job/ultra-vires/job/master/)
+[![Build Status](https://jenkins.jmorgancusick.com/buildStatus/icon?job=John+Cusick%2Fultra-vires%2Fmaster)](https://jenkins.jmorgancusick.com/job/John%20Cusick/job/ultra-vires/job/master/)
 
 # Ultra Vires
 
